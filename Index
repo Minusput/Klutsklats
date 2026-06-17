@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klus & Tuinservice aan Huis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7f2;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2f6b3f, #6fa35c);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      background: #25D366;
+      color: white;
+      padding: 16px 28px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #2f6b3f;
+      margin-top: 0;
+    }
+
+    .price-box {
+      background: #fff8e8;
+      border-left: 6px solid #d99a25;
+      padding: 25px;
+      border-radius: 14px;
+      font-size: 20px;
+      margin-top: 30px;
+    }
+
+    .contact {
+      text-align: center;
+      background: #2f6b3f;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1f1f1f;
+      color: #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Schilderwerk & Tuinservice aan Huis</h1>
+  <p>Professionele hulp voor binnen en buiten: netjes, betrouwbaar en snel geregeld.</p>
+  <a class="btn" href="https://wa.me/31642484179?text=Hallo%2C%20ik%20wil%20graag%20informatie%20over%20een%20klus%20aan%20huis." target="_blank">
+    Chat direct via WhatsApp
+  </a>
+</header>
+
+<section>
+  <h2>Onze diensten</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Binnen schilderwerk</h3>
+      <p>Kamers, muren, plafonds en kleine schilderklussen netjes afgewerkt voor een frisse uitstraling.</p>
+    </div>
+
+    <div class="card">
+      <h3>Tuin opknappen</h3>
+      <p>Wij maken uw tuin weer verzorgd, schoon en netjes, ideaal voor kleine en middelgrote tuinklussen.</p>
+    </div>
+
+    <div class="card">
+      <h3>Onkruid verwijderen</h3>
+      <p>Onkruid tussen tegels, borders en tuinpaden professioneel verwijderd voor een strakke uitstraling.</p>
+    </div>
+
+    <div class="card">
+      <h3>Snoeien & maaien</h3>
+      <p>Heggen, planten, struiken en gras worden verzorgd zodat uw tuin er weer fris uitziet.</p>
+    </div>
+  </div>
+
+  <div class="price-box">
+    <strong>Kleine klussen al vanaf €25,-</strong><br>
+    Vraag eenvoudig een prijsindicatie aan via WhatsApp. Elke klus wordt eerlijk bekeken op basis van het werk.
+  </div>
+</section>
+
+<section>
+  <h2>Waarom kiezen voor ons?</h2>
+  <p>
+    Wij helpen met praktische klussen in en rondom het huis. Of het nu gaat om een kamer schilderen,
+    een tuin netjes maken, onkruid verwijderen of snoeiwerk: u krijgt duidelijke communicatie,
+    verzorgd werk en een vriendelijke service.
+  </p>
+</section>
+
+<div class="contact">
+  <h2>Wilt u snel een afspraak maken?</h2>
+  <p>Stuur direct een WhatsApp-bericht en ontvang snel reactie.</p>
+  <a class="btn" href="https://wa.me/31642484179?text=Hallo%2C%20ik%20wil%20graag%20een%20klus%20bespreken." target="_blank">
+    Start WhatsApp Chat
+  </a>
+</div>
+
+<footer>
+  © 2026 Klus & Tuinservice aan Huis - Alle rechten voorbehouden
+</footer>
+
+</body>
+</html>
